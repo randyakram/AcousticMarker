@@ -64,8 +64,6 @@ Shared helpers live in [`pipeline_common/`](pipeline_common/).
 
 **Explanation faithfulness:** the cascading randomization test passes (Spearman similarity to the original Grad-CAM collapses to ~0 once the head is randomized), and Deletion AUC clearly favors Grad-CAM order over random (0.264 vs 0.409). **Insertion AUC is essentially at chance** (0.419 vs 0.415). This is reported as a genuine mixed result.
 
-See the paper for full tables, figures, and discussion.
-
 ## Repository structure
 
 ```
